@@ -115,7 +115,7 @@ video.addEventListener("playing", () => {
 
     // Update UI
     document.getElementById("emotion").innerText = `Emotion - ${emotion}`;
-    document.getElementById("age").innerText = `Age - predator (was ${Math.round(age)})`;
+    document.getElementById("age").innerText = `Age - predator (how is bro ${Math.round(age)})`;
     document.getElementById("gender").innerText = `Gender - absolutely no rizz weird ugly mf (was ${gender})`;
     document.getElementById("emotion").innerText = `Emotion - ${emotionn[0]}`;
     // Display roast message
