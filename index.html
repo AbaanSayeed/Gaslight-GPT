@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Face Detector</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video id="videoContainer" height="400" width="400" autoplay muted></video>
+    </div>
+    <div class="result-container">
+      <div id="emotion">Emotion</div>
+      <div id="gender">Gender</div>
+      <div id="age">Age</div>
+      <div id="roast">Roast</div> <!-- 🔥 New roast box -->
+    </div>
+
+    <script src="./js/face-api.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

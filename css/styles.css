@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background: #2f2f2f;
+}
+
+canvas {
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result-container > div {
+  font-size: 1.2em;
+  padding: 10px;
+  margin: 5px 0;
+  color: white;
+  width: 400px;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+}
+
+#age {
+  background: #1e94be;
+}
+
+#emotion {
+  background: #8a1025;
+}
+
+#gender {
+  background: #62d8a5;
+}
+
+#roast {
+  background: #ff9900; /* Bright color for roasting */
+  color: black;
+  font-size: 1.3em;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+}
